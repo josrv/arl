@@ -1,0 +1,15 @@
+[package]
+name = "arl"
+version = "0.1.0"
+authors = ["sonderlain <>"]
+edition = "2018"
+description = "Two-mode stdin iterator"
+homepage = "https://github.com/sonderlain/arl"
+readme = "README.md"
+keywords = ["stdin", "tty", "terminal"]
+license = "MIT"
+repository = "https://github.com/sonderlain/tmii"
+
+[dependencies]
+termion = "1.5.1"
+termios = "0.3.1"
